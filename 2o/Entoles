@@ -1,0 +1,13 @@
+flex 1ostadio.l 
+bison -v -d 2ostadio.y 
+gcc 2ostadio.tab.c lex.yy.c -lm extra/hashtbl.c
+
+Gia to 1o arxeio 
+
+./a.out testfiles/fort400test1.f
+
+Gia to 2o arxeio 
+./a.out testfiles/fort400test2.f
+
+
+

@@ -1,0 +1,4 @@
+flex 1ostadio.l    	
+gcc lex.yy.c -lfl -lm  
+./a.out pasc200tests/test1.p	(Gia to 1o)
+./a.out pasc200tests/test2.p	(Gia to 2o)
